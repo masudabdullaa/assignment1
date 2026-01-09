@@ -24,6 +24,11 @@ nav li a {
     color: #000;
     font-size: 16px;
 }
+nav li a:hover {
+    transition-duration: 0.6s;
+    text-decoration: underline;
+    color: rgb(3, 75, 3);
+}
 .primary-button {
     padding: 12px 16px;
     background-color: #469165;
@@ -56,7 +61,7 @@ nav li a {
     background-image: url(./assets/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 200px;
+    padding: 116px 0 180px 0;
 }
 .access-content {
     max-width: 1360px;
@@ -65,7 +70,7 @@ nav li a {
     margin: 0 auto;
 }
 .access-content h1 {
-    font-size: 84px;
+    font-size: 74px;
     line-height: 72px;
     color: #30B868;
     margin-bottom: 16px;
@@ -99,4 +104,55 @@ nav li a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#notes {
+
+}
+#notes h2 {
+    font-size: 48px;
+    text-align: center;
+    color: #001931;
+    margin-top: 40px;
+}
+#notes p {
+    text-align: center;
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 16px 0 44px 0;
+}
+.notes-container {
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.notes-content {
+    text-align: center;
+    max-width: 322px;
+    height: 300px;
+    box-shadow: 0 4px 8px #ddd;
+    margin: 0 12px;
+    padding: 24px;
+}
+.notes-content img {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+    padding: 14px;
+    margin-bottom: 16px;
+    margin-top: 55px;
+}
+.notes-content h3 {
+    font-size: 24px;
+    color: #001931;
+}
+.notes-content p {
+    margin: 16px 24px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
 }
