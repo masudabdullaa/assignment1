@@ -2,6 +2,10 @@ First time git push:
 
 git init
 git add .
+
+  git config --global user.email "masudabdullaa@gmail.com"
+  git config --global user.name "masudabdullaa"
+
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/masudabdullaa/assignment1.git
