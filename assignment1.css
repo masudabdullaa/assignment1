@@ -32,7 +32,71 @@ nav li a {
     border-radius: 4px;
     cursor: pointer;
 }
+.secondary-button {
+    padding: 12px 16px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
 .primary-button:hover {
     background-color: #007732;
     transition-duration: 0.6s;
+}
+.secondary-button:hover {
+    background-color: #469165;
+    transition-duration: 0.6s;
+}
+#earlyaccess {
+    width: 100%;
+    max-height: 674px;
+    background-image: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+}
+.access-content {
+    max-width: 1360px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.access-content h1 {
+    font-size: 84px;
+    line-height: 72px;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+.access-content span {
+    display: block;
+    color: #fff;
+    line-height: 72px;
+}
+.access-content p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 32px;
+    color: #fff;
+}
+#access-button {
+    padding: 8px 12px;
+    background-color: #fff;
+    color: #469165;
+    border-radius: 1000px;
+    margin-bottom: 16px;
+    border: none;
+    cursor: pointer;
+}
+#access-button:hover {
+    transition-duration: 0.6s;
+    background-color: #469165;
+    color: #fff;
+}
+.access-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
